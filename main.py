@@ -4,9 +4,7 @@ import requests
 from PIL import Image, ImageEnhance 
 import PIL.ImageOps
 
-
 img = Image.open('akio.gif')
-
 
 for frame in range(img.n_frames):
 
