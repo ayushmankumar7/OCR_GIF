@@ -5,8 +5,11 @@ from PIL import Image, ImageEnhance
 import PIL.ImageOps
 
 img = Image.open('akio.gif')
-
-for frame in range(img.n_frames):
+if type(img) == PIL.GifImagePlugin.GifImageFile:
+    ittr =  img.n_frames
+else:
+    ittr = 1
+for frame in range(ittr):
 
     print('Frame: ', frame + 1)
 
