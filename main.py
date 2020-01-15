@@ -3,8 +3,17 @@ import io
 import requests
 from PIL import Image, ImageEnhance 
 import PIL.ImageOps
+import argparse 
+import sys 
 
-img = Image.open('akio.gif')
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--i', type= str, default = 'akio.gif', help = "Add image to be converted to Text")
+
+arg = parser.parse_args()
+i = arg.i
+
+img = Image.open(i)
 if type(img) == PIL.GifImagePlugin.GifImageFile:
     ittr =  img.n_frames
 else:
