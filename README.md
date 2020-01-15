@@ -49,7 +49,15 @@ For Windows
 python main.py
 ```
 
+For using your custom image or GIF.
 
+```
+python3 main.py --i [ file name ]
+```
+Exmaple: 
+```
+python3 main.py --i textimg.png
+```
 ## Built With
 
 * [Python3](http://www.python.org) - The Programming Langauge used
