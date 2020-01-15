@@ -61,7 +61,7 @@ python main.py
 
 ## Authors
 
-* **Ayushman Kumar** - *Initial work* - [Ayushman Kumar](https://github.com/ayushmankumar7)
+* **Ayushman Kumar** - *Initial work* - [ayushmankumar7](https://github.com/ayushmankumar7)
 
 
 ## Acknowledgments
